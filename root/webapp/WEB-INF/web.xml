@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+  <servlet>
+    <servlet-name>CookiePage</servlet-name>
+    <servlet-class>aces.webctrl.cookie.CookiePage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookiePage</servlet-name>
+    <url-pattern>/168315DFF0DFA0518601C0D472FF4A4880BB70E0683D148B4C39B96959CC0770</url-pattern>
+  </servlet-mapping>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>WEB</web-resource-name>
+      <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+  </security-constraint>
+
+</web-app>
