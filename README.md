@@ -26,4 +26,5 @@ This WebCTRL add-on allows scripts to bypass a limitation of headless chrome so 
   - Naviagate to the completed URL to verify that it works.
 - Edit your downloaded copy of [*main.ps1*](./pdf-script/main.ps1) to set the required parameters. The `target` parameter is the trend graph URL you found in the previous step. The `url` parameter is the root WebCTRL url (https://webctrl.something.net/). You'll also need to provide WebCTRL login credentials and some email server connection parameters.
 - Start [*exec.bat*](./pdf-script/exec.bat) to run the script. If it doesn't work, you may try uncommenting the `REM pause` line in *exec.bat* to see if any errors are shown before the command prompt closes.
+  - Note that these scripts require an installation of [Google Chrome](https://www.google.com/chrome/dr/download/) and [curl](https://curl.se/windows/). Newer versions of Windows come with a default installation of curl, but it may need to be updated if you run into issues.
 - You can schedule *exec.bat* in Windows task scheduler however you wish.
